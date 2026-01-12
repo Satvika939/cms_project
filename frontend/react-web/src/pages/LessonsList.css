@@ -1,0 +1,123 @@
+.lessons-section {
+  margin-top: 16px;
+}
+
+.lessons-header {
+  /* background-color: #dde04d; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.lessons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lesson-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.lesson-left h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.lesson-meta {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #6b7280;
+  display: flex;
+  gap: 12px;
+}
+
+.lesson-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 🔹 STATUS BADGES */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Draft */
+.status-draft {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+/* Scheduled */
+.status-scheduled {
+  background: #fff7ed;
+  color: #c2410c;
+}
+
+/* Published */
+.status-published {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+/* Buttons */
+/* Container */
+.lesson-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Base pill button (View / Edit / Actions) */
+.action-pill {
+  background: #eef2ff;        /* soft indigo */
+  color: #4f46e5;
+  border: none;
+  padding: 6px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+/* Hover */
+.action-pill:hover {
+  background: #e0e7ff;
+  transform: translateY(-1px);
+}
+
+/* Active */
+.action-pill:active {
+  transform: scale(0.96);
+}
+
+/* Safety: no underline ever */
+.action-pill,
+.action-pill:hover {
+  text-decoration: none;
+}
+
+
+.schedule-btn {
+  color: #7c3aed;
+}
+
+.empty-text {
+  font-size: 14px;
+  color: #6b7280;
+}

@@ -1,0 +1,101 @@
+/* Page background consistency (optional wrapper usage) */
+body {
+  background-color: #f5f7fb;
+}
+
+/* Container */
+.term-container {
+  max-width: 520px;
+  margin: 48px auto;
+  padding: 28px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e3e6ed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* Back Button */
+.back-btn {
+  background: none;
+  border: none;
+  color: #2563eb; /* primary blue */
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 18px;
+  padding: 0;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Heading */
+.term-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937; /* dark gray */
+  margin-bottom: 22px;
+}
+
+/* Form */
+.term-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Input group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.form-group input {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input::placeholder {
+  color: #9ca3af;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f39c12;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #df6a11;
+}
+
+/* Disabled state */
+.submit-btn:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}

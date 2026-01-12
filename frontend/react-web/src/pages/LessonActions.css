@@ -1,0 +1,131 @@
+/* Page background */
+.lesson-actions-page {
+  min-height: 100vh;
+  background: #f8fafc;
+  padding: 32px;
+}
+
+/* Back link */
+.back-link {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Card */
+.lesson-actions-card {
+  max-width: 520px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.lesson-actions-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* Lesson info */
+.lesson-actions-card p {
+  margin: 8px 0;
+  color: #334155;
+}
+
+/* Status badge */
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-draft {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.status-scheduled {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-published {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-archived {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Actions layout */
+.actions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Base action button */
+.action-btn {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Publish button */
+.publish-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.publish-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+/* Archive button */
+.archive-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.archive-btn:hover {
+  background: #b91c1c;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(220, 38, 38, 0.25);
+}
+
+/* Button press effect */
+.action-btn:active {
+  transform: scale(0.97);
+}
+
+/* Disabled (future-proof) */
+.action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}

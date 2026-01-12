@@ -1,0 +1,65 @@
+.lesson-details-page {
+  min-height: calc(100vh - 80px);
+  background-color: #f5f7fb;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lesson-details-card {
+  width: 100%;
+  max-width: 700px;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 28px 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.details-row {
+  margin-bottom: 14px;
+}
+
+.details-row span {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.details-row p,
+.details-row a {
+  font-size: 15px;
+  color: #111827;
+}
+
+.details-row a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.details-row a:hover {
+  text-decoration: underline;
+}
+
+/* Secondary button */
+.secondary-btn {
+  background: #eef2ff;
+  color: #3730a3;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background: #e0e7ff;
+}
