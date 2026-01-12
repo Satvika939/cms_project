@@ -40,6 +40,8 @@ cd ../frontend/react-web
 npm install
 npm start
 
+4] Enter the password present in env file for postgres database integration
+
 Frontend will run on: http://localhost:3000
 ```text
 
