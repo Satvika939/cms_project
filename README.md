@@ -1,4 +1,8 @@
+
 ```text
+for logging in use
+email:Admin@example.com
+password:Admin@123
 ┌──────────────┐
 │   Frontend   │  (React)
 │  react-web   │
